@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(0deg,rgba(0,0,0,0),rgba(0,0,0,0)),url("/img/DSC_0075.JPG") center center;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#middle{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    padding-bottom: 10vh;
+}
+
+#middle h1{
+    color: white;
+    font-size: 60px;
+}
+
+#middle table{
+    width: 25%;
+    margin: 5vh auto;
+}
+
+.social{
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.social:hover{
+    color: red;
+    cursor: pointer;
+}
