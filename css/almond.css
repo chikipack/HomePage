@@ -1,13 +1,13 @@
-body{
-    padding: 0;
-    margin: 0;
-    background: linear-gradient(0deg,rgba(0,0,0,0),rgba(0,0,0,0)),url("/img/DSC_0075.JPG") center center;
-    background-size: cover;
-    width: 100vh;
-    height: 100vh;
-    overflow: hidden;
+body {
+    padding:0px;
+    margin:0px;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/img/DSC_0075.JPG") center center;
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    font-family: 'Josefin Sans', sans-serif;
 }
-
 #middle{
     width: 100vw;
     height: 90vh;
@@ -43,3 +43,5 @@ body{
     color: red;
     cursor: pointer;
 }
+/* ph5e278854cbe7a */
+
